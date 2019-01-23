@@ -1,15 +1,14 @@
 public class CalculatorFunction {
 
     void funcion(double x, double y){
+        double z;
         if(x>y){
-            double z = x+y;
-            System.out.println(z);
+            z = x+y;
         } else if(x<y) {
-            double z = x*y;
-            System.out.println(z);
+            z = x*y;
         } else {
-            double z =x*x;
-            System.out.println(z);
+            z =x*x;
         }
+        System.out.println(z);
     }
 }

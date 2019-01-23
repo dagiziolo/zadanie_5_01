@@ -9,7 +9,7 @@ public class Calculator {
         System.out.println("Podaj drugą liczbę");
         double number2 = scan.nextDouble();
         CalculatorFunction calcul = new CalculatorFunction();
-
+        calcul.funcion(number1, number2);
 
     }
 }
